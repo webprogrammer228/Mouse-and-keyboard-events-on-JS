@@ -1,0 +1,30 @@
+* {
+	outline: none;
+}
+
+.content-box {
+	display: flex;
+	align-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+	width: 550px;
+	height: 350px;
+	background: lightblue;
+	margin: 30px auto;
+}
+
+.pc_folders {
+	padding: 0;
+}
+
+.this {
+	list-style-type: none;
+}
+
+:focus {
+	text-shadow: 0 0 10px #c00;
+}
+
+.hidden {
+	visibility: visibles;
+}
